@@ -1,0 +1,10 @@
+# labs/lab04/config.yaml
+region: us-east-1
+bucket_name: ds5220-lab04-dkn4gw
+instance:
+  ami_id: ami-0b6c6ebed2801a5cb # ubuntu 24.04lts
+  instance_type: t3.micro
+  key_name: ds5220_key
+  security_group_id: sg-0bc0b27a3e4ef27d0
+  role_name: EC2-S3-Instance-Role2
+  instance_profile_name: EC2-S3-Instance-Profile2
